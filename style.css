@@ -1,0 +1,13 @@
+html {
+  display: grid;
+  justify-content: center;
+  box-sizing: border-box;
+}
+
+body {
+  display: grid;
+  justify-content: center;
+  color: red;
+  width: 600px;
+  border: 2px solid red;
+}
