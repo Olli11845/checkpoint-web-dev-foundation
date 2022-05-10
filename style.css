@@ -78,7 +78,7 @@ main {
   padding-top: 0;
   }
 .search-text {
-  width: 500px;
+  width: 535px;
 }
 
 
@@ -110,25 +110,38 @@ main {
   
 }
 
-.name-box {
-  border: 2px solid var(--maincolor);
-  padding-left: 6rem;
-  padding-bottom: 0rem;
-  margin-bottom: 0rem;
-  margin-top: 0%;
-}
-
-.names {
-padding: 0;
-margin: 0;
-}
-
-.git-names {
+.student-list {
+  list-style: none;
   padding: 0;
   margin: 0;
+  color: var(--maincolor);
+  
 }
 
+.pictureprofile {
+  width: 3rem;
+  height: 3rem;
+}
 
+.three-entrys {
+  display: grid;
+  border: 2px solid var(--maincolor);
+  box-shadow: 2px 2px var(--maincolor);
+  grid-template-columns: 0.7fr 6fr;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+  padding-left: 1rem;
+}
+
+.name-in-p {
+  font-family: var(--fontsourcesanspro) ;
+}
+
+.three-entrys + .three-entrys {
+  margin-top: 1.5rem;
+}
 
 
 /*
