@@ -7,18 +7,65 @@ html {
   justify-content: center;
   box-sizing: border-box;
   font-size: 16px;
-  --mainbackground: #6a1cc3;
-}
-
-h1 {
-  font-family: "Source Sans Pro", sans-serif;
-  color: var(--mainbackground);
+  --maincolor: #6a1cc3;
+  --fontmontserrat: "Montserrat", sans-serif;
+  --fontsourcesanspro: "Source Sans Pro", sans-serif;
 }
 
 body {
   display: grid;
   justify-content: center;
-  max-width: 500px;
-  border: 2px solid var(--mainbackground);
-  border-radius: 5px;
+  max-width: 600px;
+  border: 2px solid var(--maincolor);
+}
+
+.menu-sign {
+  display: flex;
+  padding-top: 24px;
+  height: 50px;
+  width: 50px;
+  align-content: center;
+}
+
+header {
+  display: grid;
+  grid-template-columns: 1em 1fr;
+  grid-column-gap: 2em;
+  background-color: var(--maincolor);
+  padding: 50px;
+  padding-bottom: 20px;
+  font-size: 16px;
+}
+
+h1 {
+  font-family: "Source Sans Pro", sans-serif;
+  color: #fbfbfb;
+  font-weight: 600;
+}
+
+main {
+  max-width: 600px;
+  padding: 1em 2em 1em 2em;
+}
+
+.Students {
+  font-family: var(--fontmontserrat);
+  padding-bottom: 0em;
+  margin-bottom: 0%;
+}
+
+.Students-sub-class {
+  font-family: var(--fontsourcesanspro);
+  padding-top: 0em;
+  margin-top: 1em;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.search-text {
+  border: 2px solid black;
+  border-radius: 4px;
+}
+
+.div-search {
+  border: 2px dashed red;
 }
