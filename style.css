@@ -1,13 +1,24 @@
+/*Notizen: Shadow anlegen box-shadow: 60px -16px teal
+Farbe RGB 179 180 105 oder #6A1CC3
+*/
+
 html {
   display: grid;
   justify-content: center;
   box-sizing: border-box;
+  font-size: 16px;
+  --mainbackground: #6a1cc3;
+}
+
+h1 {
+  font-family: "Source Sans Pro", sans-serif;
+  color: var(--mainbackground);
 }
 
 body {
   display: grid;
   justify-content: center;
-  color: red;
-  width: 600px;
-  border: 2px solid red;
+  max-width: 500px;
+  border: 2px solid var(--mainbackground);
+  border-radius: 5px;
 }
