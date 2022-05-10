@@ -87,8 +87,10 @@ main {
 .dropdowns {
   display: flex;
   justify-content: space-between;
+  color: #6a1cc3;
+  margin-top: 2rem;
 }
-.Startdate {
+.startdate {
   border: 2px solid var(--maincolor);
   color: #6a1cc3;
   padding-left: 0.2em;
@@ -147,11 +149,11 @@ main {
 .svg-arrow {
   position: absolute;
   padding-top: 153px;
-  z-index: 1;
+  z-index: -1;
   margin: 0;
 }
 .svg-arrow {
-  color: var(--maincolor);
+  color: rgba(136, 73, 207, 1);
 }
 
 /* Leider ist hier vieles noch nicht barrierefrei, sondern eher hingerückt
