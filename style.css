@@ -1,6 +1,9 @@
 /*Notizen: Shadow anlegen box-shadow: 60px -16px teal
 Farbe RGB 179 180 105 oder #6A1CC3
 */
+* {
+  box-sizing: border-box;
+}
 
 html {
   display: grid;
@@ -9,7 +12,8 @@ html {
   font-size: 16px;
   --maincolor: #6a1cc3;
   --fontmontserrat: "Montserrat", sans-serif;
-  --fontsourcesanspro: "Source Sans Pro", sans-serif;
+  --fontsourcesanspro: "Source Sans Pro";
+  --secondarytitlecolor: rgba(0, 0, 0, 0.6);
 }
 
 body {
@@ -61,24 +65,71 @@ main {
   margin-top: 0.5rem;
   margin-bottom: 0.75rem;
   padding-bottom: 0;
-  color: rgba(0, 0, 0, 0.6);
+  color: var(--secondarytitlecolor)
 }
 
 .search-text {
-  border: 2px solid black;
+  border: 2px solid var(--maincolor);
   border-radius: 4px;
 }
 
 .div-search {
-  _order: 2px dashed red;
   margin-bottom: 1rem;
   padding-top: 0;
+  }
+.search-text {
+  width: 500px;
 }
+
 
 .dropdowns {
   display: flex;
   justify-content: space-between;
-   }
+
+}
+.Startdate  {
+  border: 2px solid var(--maincolor);
+  color: #6a1cc3;
+  padding-left: 0.2em;
+  font-family: var(--fontsourcesanspro);
+  font-weight: 600;
+}
+.time  {
+  border: 2px solid var(--maincolor);
+  color: #6a1cc3;
+  padding-left: 0.2em;
+  font-family: var(--fontsourcesanspro);
+  font-weight: 600;
+}
+
+.header-names {
+  padding-top: 2rem;
+  color: var(--secondarytitlecolor);
+  font-family: var(--fontmontserrat);
+  font-size: 16px;
+  
+}
+
+.name-box {
+  border: 2px solid var(--maincolor);
+  padding-left: 6rem;
+  padding-bottom: 0rem;
+  margin-bottom: 0rem;
+  margin-top: 0%;
+}
+
+.names {
+padding: 0;
+margin: 0;
+}
+
+.git-names {
+  padding: 0;
+  margin: 0;
+}
+
+
+
 
 /*
 * {
